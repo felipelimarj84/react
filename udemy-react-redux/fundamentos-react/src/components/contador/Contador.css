@@ -1,0 +1,15 @@
+.contador input,
+h3 {
+  font-size: 1.4rem;
+}
+
+.contador button {
+  font-size: 1.4rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  background-color: #4040af;
+  color: #fff;
+  border: none;
+}
