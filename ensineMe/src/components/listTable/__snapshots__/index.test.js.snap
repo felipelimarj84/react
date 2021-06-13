@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListTable/> matches snapshot basic 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.c0 .info-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+}
+
+.c0 .info-container .grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.c0 .info-container .title-item {
+  border-bottom: 2px solid #ddd;
+  padding: 5px;
+}
+
+.c0 .info-container .item-list {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+  font-size: 1.8rem;
+}
+
+.c0 .info-container .item-list .item {
+  font-size: 1.8rem;
+}
+
+.c0 .info-container .item-list .item .button-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.c1 {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  background-color: #7f3f98;
+  color: #bfbfbf;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="info-container"
+    >
+      <div
+        class="grid-container title-item"
+      >
+        <p>
+          bonito
+        </p>
+        <p>
+          bonitos
+        </p>
+        <p>
+          bonitos
+        </p>
+      </div>
+      <div
+        class="grid-container item-list"
+      >
+        <div
+          class="item"
+        >
+          <p>
+            teste1
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <p>
+            teste2
+          </p>
+        </div>
+        <div
+          class="item"
+        >
+          <p>
+            teste3
+          </p>
+          <div
+            class="button-container"
+          >
+            <button
+              class="c1"
+            >
+              teste
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
